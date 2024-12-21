@@ -2,7 +2,7 @@
 FROM openjdk:21-jdk-slim
 
 # Set working directory
-WORKDIR /app
+WORKDIR /var/www/springtest
 
 # Copy the built jar file
 COPY target/questapp-0.0.1-SNAPSHOT.jar app.jar
